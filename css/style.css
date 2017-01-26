@@ -1,0 +1,104 @@
+body {
+    background-image: url("../images/gummibarchen-318362_1920-min.jpg");
+
+}
+
+div#pagewrapper {
+    width: 960px;
+    margin: 0px auto auto auto;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+img.logo {
+    width: 500px;
+    length: 250px;
+    margin: auto;
+    padding-top: 7px;
+    display: block;
+}
+
+a.heading {
+    font-family: 'Satisfy', sans-serif;
+    color: coral;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+div#navigation ul {
+    list-style-type: none;
+
+}
+
+div#navigation li {
+    float: left;
+    display: block;
+    margin-left: 0px;
+    width: 142.5px;
+    margin-bottom: 15px;
+}
+
+div#navigation a {
+    text-decoration: none;
+    color: #544645;
+    display: block;
+    padding: 7px;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+
+div#navigation a:hover {
+    color: white;
+    background-color: #a21a20;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+span.copyright {
+    color: white;
+    font-size: 0.8em;
+    float: right;
+    margin: 15px;
+}
+div#footer{
+    background-color: #545454;
+}
+span.copyright:hover{
+    color: #c3c3c3;
+}
+
+img.mini_collection_1, img.mini_collection_3 {
+    float: left;
+    width: 50%;
+}
+
+img.mini_collection_2, img.mini_collection_4 {
+    float: right;
+    width: 50%;
+}
+img.mini_collection_4{
+    height: 360px;
+}
+
+.Why {
+    color: coral;
+    display: block;
+    margin: 15px 0 0 70px;
+    font-size: 2em;
+    font-family: 'Roboto';
+}
+
+.Why_answer {
+    margin-left: 15px;
+    font-family: 'Roboto';
+}
